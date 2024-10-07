@@ -77,7 +77,10 @@ h1 {
   left: 358px;
   width: 30px;
 }
-
+#loginForm {
+  display: flex;
+  flex-direction: column;
+}
 .popup-header {
   margin: 50px auto 0;
 }
@@ -86,7 +89,7 @@ h1 {
   width: 60%;
   height: 32px;
   font-size: 18px;
-  margin: 30px auto 30px;
+  margin: 30px auto;
   border-radius: 5px;
   background-color: #ecd5cf;
 }

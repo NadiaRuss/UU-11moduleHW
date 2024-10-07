@@ -12,12 +12,12 @@
             <div class="loginPopup">
                 <img class="popup-close" src="./img/close.svg" alt="close popup">
                 <h2 class="popup-header">Добро пожаловать в чат!</h2>
-                <form id="loginForm"></form>
-                <input type="text" id="loginInput" placeholder="Введите имя пользователя" required />
-                <button type="submit" id="login-button">Отправить</button>
+                <form id="loginForm">
+                    <input type="text" id="loginInput" placeholder="Введите имя пользователя" required />
+                    <button type="submit" id="login-button">Отправить</button>
+                </form>
             </div>
         </div>
-
         <h1>Семейный чат</h1>
         <img class="chatImg" src="./img/token_chat.svg" alt="chat clouds">
         <div id="chat"></div>
@@ -26,8 +26,6 @@
           <button type="submit" id="formButton">Отправить</button>
         </form>
     </main>
-    
     <script src="chat.js"></script>
-    <script src="script.js"></script>
   </body>
 </html>
